@@ -1,0 +1,6 @@
+{"request": "Hello, how are you?", "response": "I'm doing well, thank you for asking!"}
+{"request": "What is 2+2?", "response": "It is 4."}
+{"request": "Explain tokens in NLP.", "response": "Tokens are the basic units of text that a model processes. They can be words, subwords, or characters, depending on the tokenization scheme used."}
+{"request": "Thanks", "response": "You're welcome!"}
+{"prompt": "What is the capital of France?", "output": "The capital of France is Paris."}
+{"completion": "Tell me a joke.", "output": "Why did the developer go broke? Because he used up all his cache!"}
