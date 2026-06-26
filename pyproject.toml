@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "token-cost-estimator"
+version = "0.1.0"
+description = "A stdlib-only CLI that reads a JSONL of request/response strings, estimates token counts using a simple whitespace/word heuristic, and computes cost against a user-supplied price card (per 1K input/ou"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Amarel Taylor Scott" }]
+keywords = ["llm", "agents", "ai", "cli"]
+dependencies = []
+
+[tool.setuptools]
+py-modules = ["token_cost_estimator"]
